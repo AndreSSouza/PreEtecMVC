@@ -12,27 +12,6 @@
     </head>
     <body>
         <div class="Header">
-            <input type="checkbox" id="btn_menu">
-            <abel for="btn_menu">&#9776;</label>
-            <nav class="menu">
-                <ul>
-                    <li><a href="<?php echo DIRPAGE.'inscricao'; ?>">Lista de Espera</a></li>
-                    <li><a>Turmas</a>
-                        <ul>
-                            <li><a href="<?php echo DIRPAGE.'turma'; ?>">Turma</a></li>
-                            <li><a href="<?php echo DIRPAGE.'matricula'; ?>">Matricula</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="<?php echo DIRPAGE.'estudante'; ?>">Estudante</a></li>
-                    <li><a href="">Professores</a>
-                        <ul>
-                            <li><a href="<?php echo DIRPAGE.'professor'; ?>">Professor</a></li>
-                            <li><a href="<?php echo DIRPAGE.'disciplina'; ?>">Disciplina</a></li>
-                            <li><a href="<?php echo DIRPAGE.'disciplinaMinistrada'; ?>">Disciplinas Ministradas</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
             <?php echo $this->addHeader(); ?>
         </div>       
         <div class="Main">
