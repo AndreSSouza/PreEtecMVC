@@ -16,17 +16,17 @@ class ClassRoutes{
         $I = $url[0];
         
         #colocar todos os urls que teram no nosso site
-        $this->Rota = array( 
-            "" => "ControllerHome",
+        $this->Rota = ["" => "ControllerHome",
             "home" => "ControllerHome",
             "login" => "ControllerLogin",
             "admin" => "ControllerAdministrador",
             "usuario" => "ControllerUsuario",
             "chamada" => "ControllerChamada",
-            "aluno" => "ControllerAluno",
+            "estudante" => "ControllerEstudante",
+            "matricula" => "ControllerMatricula",
             "inscricao" => "ControllerInscricao",
             "turma" => "ControllerTurma"
-            );
+            ];
         
         if (array_key_exists($I, $this->Rota)) {
             if(file_exists(DIRREQ."app/controller/{$this->Rota[$I]}.php")){

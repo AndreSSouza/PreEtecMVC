@@ -1,6 +1,6 @@
 <?php
 namespace App\Controller;
 
-class ControllerIncricao {
+class ControllerInscricao {
     
 }
