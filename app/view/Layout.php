@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="<?php echo DIRCSS.'Style.css'; ?>">
         <?php echo $this->addHead(); ?>
     </head>
-    <body bgcolor="#000">
+    <body>
         <div class="Header">
             <?php echo $this->addHeader(); ?>
         </div>       
